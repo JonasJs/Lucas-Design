@@ -1,7 +1,26 @@
+@import "vendors/plugins";
 @import "components/menu";
 @import "components/header";
-@import "variaveis";
 
-body{
-	background-color:#fdfbea;
+$corpadrao: #ffcc00;
+$corsegundaria: #f5c504;
+$corfont: #fff7d6;
+$fundo: #fdfbea;
+
+@mixin saiba_mais() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+body,html {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color:$fundo;
 } 
