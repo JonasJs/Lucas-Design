@@ -1,25 +1,28 @@
-.cards{
-	text-align: center;
-    width: 225px;
-    height: 380px;
-    background: #ffcc00;
-    margin: 55px 0 46px;
-    color: #fdfbea;
-    padding: 14px 0;
-    float: left;
-    margin-left: 50px;
-    border-radius: 20px 0 20px;
-    text-transform: uppercase;
-    	h2{
-    		font-size: 17pt;
-    	}
-    	ul{
-    		text-align: justify;
-    		margin-left: 50px;
-    		list-style: none;
-    		font-size: 10pt;
-    		padding:5px 0;
-    	}
+section{
+    height: 700px;
+    .cards{
+    	text-align: center;
+        width: 225px;
+        height: 380px;
+        background: #ffcc00;
+        margin: 13% 0 46px;
+        color: #fdfbea;
+        padding: 14px 0;
+        float: left;
+        margin-left: 50px;
+        border-radius: 20px 0 20px;
+        text-transform: uppercase;
+        	h2{
+        		font-size: 17pt;
+        	}
+        	ul{
+        		text-align: justify;
+        		margin-left: 50px;
+        		list-style: none;
+        		font-size: 10pt;
+        		padding:5px 0;
+        	}
+    }
 }
 .icon{
     font-size: 100px;

@@ -1,0 +1,25 @@
+article{
+	width: 100%;
+	height: 500px;
+	background: #ffcc00;
+	text-transform: uppercase;
+	display: -webkit-inline-box;
+	color:#fff0b3;
+		.sobre{
+			margin: 11% 0;
+
+			h1{
+				font-size: 33px;
+				margin-bottom: 15px;
+				}
+			p{
+				font-size: 12px;
+			}	
+		}
+
+	#butao_article{
+		width: 250px;
+    	height: 45px;
+    	margin-top: 20px;
+	}
+}
