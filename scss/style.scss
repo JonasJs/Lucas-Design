@@ -1,6 +1,8 @@
 @import "vendors/plugins";
 @import "components/menu";
 @import "components/header";
+@import "components/section";
+
 
 $corpadrao: #ffcc00;
 $corsegundaria: #f5c504;
@@ -12,7 +14,8 @@ $fundo: #fdfbea;
     margin-left: auto;
     margin-right: auto;
 }
-
+a{ text-decoration:none;
+}
 * {
 	margin: 0;
 	padding:0;
